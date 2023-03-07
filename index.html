@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevaeh Sullivan CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+    
+</head>
+<body>
+    <div class="Cuerpoprincipal">
+        <img class= "imagen1" src="https://randomuser.me/api/portraits/women/72.jpg" alt="5x5">
+        <h1 class="NombrePrincipal">Nevaeh Sullivan</h1>
+        <p class="Direccion">5466 W Belt Line Rd. Michigan, Estados Unidos </p>
+        <p class="Telefono">Telefono: (571) 738-0296</p>
+        <P>Ingeniera en Sistemas altamente motivada y orientada a resultados con 3 años de experiencia en desarrollo de software, 
+        diseño de arquitectura y soporte técnico. Excelente capacidad para trabajar en equipo, comunicación efectiva y habilidades interpersonales.</P>
+        <fieldset>
+            <legend class="Titulo">Datos Generales</legend>
+            <p id="datosgenerales"></p>
+            <ul id="columna1">
+                <li class="Informacion"><span>Fecha de nacimiento:</span>11/3/1981 </li>
+                <li class="Informacion">DNI: 25:500:400</li>
+                <li class="Informacion">Nacionalidad: Argentina</li>
+                <li class="Informacion">Codigo postal: 1234</li>
+                <li class="Informacion">Email: nevaeh.sullivan@example.com</li>
+            </ul>
+            <button onclick="Leermasdatosgenerales()" id="boton" class="boton">Ver Datos Generales</button>
+                <script src="proyecto.js"></script>
+        </fieldset>
+        <fieldset>
+            <legend class="Titulo">Formacion Academica</legend>
+            <p id="Formacionacademica"></p>
+            <ul id="columna2">
+                <li class="Informacion">Ingeniería en Sistemas, Universidad Nacional Autónoma de México (2012-2017)
+
+                    Concentración en Desarrollo de Software y Arquitectura de Sistemas
+
+                <li class="Informacion">Habilidades Técnicas:
+
+                    Lenguajes de programación: Java, Python, C++
+                    Sistemas operativos: Windows, Linux
+                    Bases de datos: MySQL, Oracle
+                    Herramientas de desarrollo: Eclipse, NetBeans, Visual Studio Code
+                    Idiomas:
+                    
+                    Español (nativo)
+                    Inglés (intermedio) 
+                
+            </ul>
+            <button href="#" onclick="Leermasformacionacademica()" id="boton2" class="boton">Mostrar Formacion Academica</button>
+            <script src="proyecto.js"></script>
+        </fieldset>
+        <fieldset>
+            <legend class="Titulo">Experiencia Laboral</legend>
+            <p id="Experiencialaboral"></p>
+            <ul id="columna3">
+                <li class="Informacion">Desarrollador de Software, ABC Company (2019-Presente)
+
+                    Desarrollo de software utilizando lenguajes como Java y Python
+                    Diseño y mantenimiento de bases de datos relacionales utilizando MySQL y Oracle
+                    Trabajo en equipo con otros desarrolladores, ingenieros y diseñadores para mejorar la funcionalidad del software</li>
+                <li class="Informacion">Ingeniero de Soporte Técnico, XYZ Technology (2017-2019)
+
+                    Proporcionar soporte técnico a los usuarios del software, tanto en persona como por teléfono y correo electrónico
+                    Identificación y solución de problemas de software y hardware
+                    Documentación y seguimiento de incidentes de soporte técnico </li>
+            </ul>
+            <button href="#" onclick="Leermasexperiencialaboral()" id="boton3" class="boton">Mostrar Experiencia Laboral</button>
+            <script src="proyecto.js"></script>
+        </fieldset>
+
+        <fieldset class="videocontenedor">
+            <legend class="Titulo">Video CV</legend>
+            <p id="videoinfo"></p>
+            <ul id="columna4" >
+                <iframe class="video" width="600" height="315" src="https://www.youtube.com/embed/YRvOePz2OqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+            </ul>
+            <button href="#" onclick="Vervideoinformativo()" id="boton4" class="boton">Ver Video CV</button>
+            <script src="proyecto.js"></script>
+        </fieldset>
+
+        <fieldset> 
+            
+                <title>Redes Sociales</title>
+                <style>
+                    .social-icons {
+                        display: flex;
+                        justify-content: center;
+                    }
+            
+                    .social-icons a {
+                        margin: 0 10px;
+                    }
+            
+                    .social-icons img {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        transition: all 0.3s ease;
+                    }
+            
+                    .social-icons img:hover {
+                        transform: scale(1.2);
+                    }
+                </style>
+            
+            <body>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank" ><img src="https://img.icons8.com/color/50/000000/facebook.png"/></a>
+                    <a href="https://twitter.com/?lang=es" target="_blank"><img src="https://img.icons8.com/color/50/000000/twitter.png"/></a>
+                    <a href="https://instagram.com" target="_blank"><img src="https://img.icons8.com/color/50/000000/instagram-new.png"/></a>
+                    <a href="https://linkedin.com" target="_blank"><img src="https://img.icons8.com/color/50/000000/linkedin.png"/></a>
+                </div>
+            </body>
+            
+            
+
+    
+        </fieldset>
+        <footer class="piedepagina">CV PROYECTO 2023</footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,104 @@
+* {
+    font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
+    font-style: 'Normal';
+    box-sizing: border-box;
+    color: gainsboro;
+}
+#columna1{
+    display: none;
+}
+#columna2{
+    display: none;
+}
+#columna3{
+    display: none;
+}
+#columna4{
+    display: none;
+}
+body {
+    background-image: url(https://i.pinimg.com/originals/37/49/9c/37499c2d027841832e7f1222876b530d.gif);
+    display: flex;
+    min-width: 500;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.Cuerpoprincipal{
+
+    min-width: 900px;
+    background: linear-gradient(rgba(47, 76, 148, 0.75),rgba(109, 64, 29, 0.75));
+    border: 2px solid indianred;
+    padding: 24px;
+    top: 60%;
+    left: 50%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.NombrePrincipal{
+    text-align: center;
+}
+.Direccion{
+    text-align: center;
+}
+.Telefono{
+    text-align: center;
+    
+}
+fieldset{
+    margin-bottom: 12px;
+}
+.Titulo{  
+    
+    background-color: IndianRed;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'LibreBaskerville-Regular', 'Trebuchet MS', sans-serif;
+    font-style: 'Gill Sans';
+}
+.Informacion{
+    border-left: 12px;
+    margin-left: 10%;
+}
+.piedepagina{
+    font-family: 'LibreBaskerville-Regular', 'Trebuchet MS', sans-serif;
+    font-style: 'LibreBaskerville';
+    text-align: center;
+    font-size: 10px;
+}
+.imagen1{
+    border-radius: 70%;
+    margin-bottom: 12px;
+    margin-left: 40%;
+    border:solid #fff;
+}
+.boton{
+margin-top: 10px;
+font-family: 'LibreBaskerville-Regular', 'Trebuchet MS', sans-serif;
+font-style: 'LibreBaskerville';
+font-size: 12px;
+font-weight: bold;
+text-transform: uppercase;
+background: IndianRed;
+border: 1px solid black;
+color: #ffffff;
+border-radius: 5px;
+padding: 12px 20px;
+min-width: 100px;
+width: auto;
+height: auto;
+margin-left: 35%;
+
+
+}
+
+.Iconored{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:none
+
+}
